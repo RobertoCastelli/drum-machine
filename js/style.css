@@ -1,17 +1,10 @@
-body{
-    background: black;
-    width: 350px;
-    height: auto;
-    color: white;
-}
-
 .key{
     border: 3px solid green;
     border-radius: 10px;
     width:  100px;
     padding: 10px;
     margin: 10px;
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
     color: orange;
     transition: all 0.07s;
@@ -21,6 +14,7 @@ kbd {
     display: block;
     font-size: 20px;
     color: green;
+    
 }
 
 .playing{
@@ -30,8 +24,13 @@ kbd {
     color: orange;
 }
 
-footer{
-    font-size: 10px;
-    margin: 5px;
-    
+h1 {
+    letter-spacing: 2px;
 }
+
+body {
+    max-width: 600px;
+    background: black;
+}
+
+
